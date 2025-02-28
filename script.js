@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
     item.addEventListener('click', (event) => {
       event.preventDefault(); // Prevent default link behavior
       const href = item.getAttribute('href');
+      item.style.opacity = '1';
       setTimeout(() => {
         window.location.href = href; // Navigate after a short delay
       }, 200);
