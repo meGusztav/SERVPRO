@@ -37,6 +37,19 @@ main {
     gap: 20px;
 }
 
+@media (max-width: 600px) {
+    .link-item img {
+        width: 150px;
+        /* Smaller images on small screens */
+        height: 112.5px;
+    }
+
+    .image-links {
+        gap: 10px;
+        padding-top: 20px;
+    }
+}
+
 .link-item {
     display: flex;
     flex-direction: column;
